@@ -149,12 +149,13 @@
     }
 
     .hero-grid {
-      max-width: 1240px;
+      max-width: 1160px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: minmax(0, 0.92fr) minmax(420px, 1.08fr);
-      gap: clamp(28px, 5vw, 72px);
+      grid-template-columns: minmax(0, 520px) minmax(360px, 520px);
+      gap: clamp(34px, 5vw, 76px);
       align-items: center;
+      justify-content: center;
     }
 
     .eyebrow {
@@ -185,10 +186,11 @@
 
     h1 {
       margin-bottom: 22px;
-      max-width: 680px;
-      font-size: clamp(2.75rem, 6.4vw, 5.8rem);
+      max-width: 560px;
+      font-size: clamp(2.75rem, 5.2vw, 4.9rem);
       line-height: 0.95;
       letter-spacing: 0;
+      overflow-wrap: anywhere;
     }
 
     .lead {
@@ -220,6 +222,7 @@
 
     .hero-media {
       position: relative;
+      min-width: 0;
     }
 
     .photo {
@@ -228,6 +231,7 @@
       background: var(--cream);
       box-shadow: var(--shadow);
       transition: transform 220ms ease, box-shadow 220ms ease;
+      margin: 0;
     }
 
     .photo img {
@@ -246,7 +250,8 @@
     }
 
     .photo.main {
-      min-height: clamp(390px, 48vw, 620px);
+      aspect-ratio: 4 / 3;
+      min-height: 0;
     }
 
     .facts {
@@ -379,7 +384,8 @@
     }
 
     .feature .photo {
-      min-height: 520px;
+      aspect-ratio: 4 / 3;
+      min-height: 0;
     }
 
     .check-list {
@@ -423,7 +429,8 @@
     }
 
     .image-row .photo {
-      min-height: 320px;
+      aspect-ratio: 4 / 3;
+      min-height: 0;
     }
 
     .notice {
@@ -733,10 +740,10 @@
           <h1>Aromaölmassage Ayurveda Schulung</h1>
           <p class="lead">Eine 2-tägige Weiterbildung für Aromaölmassage mit Ölkunde, anatomisch sicheren Griffen, Kontraindikationen und praktischer Anwendung am Modell.</p>
           <div class="hero-actions">
-            <a class="button call-link" href="tel:01625119058" data-phone="0162 5119058">Jetzt anrufen</a>
+            <a class="button" href="#kontakt">Jetzt anrufen</a>
             <a class="button light" href="#inhalte">Inhalte ansehen</a>
           </div>
-          <p class="phone-hint">Telefon direkt: <a class="call-link" href="tel:01625119058" data-phone="0162 5119058">0162 5119058</a></p>
+          <p class="phone-hint">Kontakt und Telefonnummer finden Sie am Ende der Seite.</p>
         </div>
         <div class="hero-media" aria-label="Fotos der Schulung">
           <figure class="photo main">
@@ -917,8 +924,8 @@
     </footer>
 
     <div class="mobile-call" aria-label="Schnellkontakt">
-      <span>Direkt anrufen <strong>0162 5119058</strong></span>
-      <a class="button call-link" href="tel:01625119058" data-phone="0162 5119058">Anrufen</a>
+      <span>Kontakt am Seitenende <strong>0162 5119058</strong></span>
+      <a class="button" href="#kontakt">Kontakt</a>
     </div>
     <div class="toast" role="status" aria-live="polite"></div>
   </div>
