@@ -667,7 +667,13 @@
       .photo.main,
       .feature .photo,
       .image-row .photo {
-        min-height: 300px;
+        aspect-ratio: auto;
+        min-height: 0;
+      }
+
+      .photo img {
+        height: auto;
+        object-fit: contain;
       }
 
       .seal-panel {
@@ -688,7 +694,7 @@
         grid-template-columns: 1fr auto;
         gap: 10px;
         align-items: center;
-        padding: 10px 12px;
+        padding: 8px 10px;
         border: 1px solid var(--line);
         border-radius: 18px;
         background: rgba(255, 255, 255, 0.94);
@@ -699,13 +705,17 @@
       .mobile-call span {
         display: grid;
         color: var(--muted);
-        font-size: 0.78rem;
+        font-size: 0.74rem;
         line-height: 1.15;
       }
 
       .mobile-call strong {
         color: var(--ink);
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+      }
+
+      .mobile-call .button {
+        min-height: 40px;
       }
     }
   </style>
