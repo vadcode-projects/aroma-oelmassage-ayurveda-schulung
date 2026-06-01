@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 940" role="img" aria-labelledby="title desc">
+  <title id="title">WBG Fachverband Wellness, Beauty und Gesundheit e.V.</title>
+  <desc id="desc">Schwarz-weißes WBG Prüfsiegel mit Lotusblüte und umlaufender Beschriftung.</desc>
+  <rect width="1000" height="940" fill="#ffffff"/>
+  <g fill="#000000">
+    <path d="M500 208c-92 103-188 257-188 397 0 158 111 243 188 243s188-85 188-243c0-140-96-294-188-397z"/>
+    <path d="M205 254c86 60 167 152 247 277-73-74-140-121-198-140-48 107-62 230-20 332 43 103 129 165 259 183-151-8-258-67-319-175-72-128-62-305 31-477zm590 0c93 172 103 349 31 477-61 108-168 167-319 175 130-18 216-80 259-183 42-102 28-225-20-332-58 19-125 66-198 140 80-125 161-217 247-277z"/>
+    <path d="M337 252c63 54 117 121 163 202 46-81 100-148 163-202 21 36 39 75 54 115-78 26-148 89-217 182-69-93-139-156-217-182 15-40 33-79 54-115z"/>
+  </g>
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="500" y="934" text-anchor="middle" font-size="122">WBG</text>
+  </g>
+  <g fill="#000000" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="66">
+    <text x="105" y="305" transform="rotate(-72 105 305)">F</text>
+    <text x="129" y="244" transform="rotate(-61 129 244)">A</text>
+    <text x="169" y="188" transform="rotate(-49 169 188)">C</text>
+    <text x="219" y="141" transform="rotate(-38 219 141)">H</text>
+    <text x="276" y="106" transform="rotate(-27 276 106)">V</text>
+    <text x="339" y="84" transform="rotate(-16 339 84)">E</text>
+    <text x="405" y="73" transform="rotate(-6 405 73)">R</text>
+    <text x="474" y="71" transform="rotate(5 474 71)">B</text>
+    <text x="543" y="81" transform="rotate(16 543 81)">A</text>
+    <text x="607" y="103" transform="rotate(27 607 103)">N</text>
+    <text x="666" y="137" transform="rotate(38 666 137)">D</text>
+    <text x="732" y="192" transform="rotate(50 732 192)">W</text>
+    <text x="779" y="255" transform="rotate(62 779 255)">E</text>
+    <text x="812" y="315" transform="rotate(73 812 315)">L</text>
+    <text x="827" y="379" transform="rotate(84 827 379)">L</text>
+    <text x="827" y="444" transform="rotate(96 827 444)">N</text>
+    <text x="812" y="508" transform="rotate(107 812 508)">E</text>
+    <text x="779" y="568" transform="rotate(119 779 568)">S</text>
+    <text x="735" y="620" transform="rotate(130 735 620)">S</text>
+    <text x="685" y="664" transform="rotate(142 685 664)">,</text>
+    <text x="635" y="704" transform="rotate(153 635 704)">B</text>
+    <text x="574" y="731" transform="rotate(164 574 731)">E</text>
+    <text x="508" y="742" transform="rotate(176 508 742)">A</text>
+    <text x="440" y="736" transform="rotate(-172 440 736)">U</text>
+    <text x="377" y="717" transform="rotate(-161 377 717)">T</text>
+    <text x="319" y="688" transform="rotate(-150 319 688)">Y</text>
+    <text x="255" y="637" transform="rotate(-138 255 637)">U</text>
+    <text x="211" y="584" transform="rotate(-127 211 584)">N</text>
+    <text x="174" y="525" transform="rotate(-116 174 525)">D</text>
+    <text x="135" y="428" transform="rotate(-97 135 428)">G</text>
+    <text x="139" y="356" transform="rotate(-84 139 356)">E</text>
+  </g>
+</svg>
